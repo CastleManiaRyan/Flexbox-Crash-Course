@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+     <!-- 
+        This was a course I followed on YouTube:
+        https://www.youtube.com/watch?v=3YW65K6LcIA&t=2123s
+        The code for this can be found here:
+        https://codepen.io/bradtraversy/pen/JjrzzOW
+        The instructors website is here:
+        https://traversymedia.com/
+      -->
+      
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    
+        <link rel="stylesheet" href="index.css">
+        <title>Flexbox Crash Course</title>      
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="container">
+                <!--containers allow you to apply widths, margin, padding, etc.-->
+                <div class="logo">Flexbox</div>
+                <ul class="nav">
+                    <li>
+                        <a href="#">Home</a>
+                        <!--there is no page to link to, this is just a placeholder-->
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                        <!--there is no page to link to, this is just a placeholder-->
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                        <!--there is no page to link to, this is just a placeholder-->
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    <header class="header">
+        <div class="container">
+            <div>
+                <h1>Flexbox Crash Course</h1>
+                <p>
+                    This crash course was created by Brad 
+                    Traversy to help you learn the basics 
+                    of flexbox. Flexbox is a very important 
+                    and useful tool in CSS.
+                </p>
+            </div>
+            <img src="https://traversymedia.com/images/grid.svg" alt="" />
+            <!--if this was in our file structure this img tag might look like: <img src="grid.svg" alt="simple picture of a grid"/>-->
+        </div>
+    </header>
+    
+        <section class="boxes">
+            <div class="container">
+                <div class="box">
+                    <h2><i class="fas fa-arrows-alt-v"></i>
+                    Alignment & Space</h2>
+                    <p>
+                    A more efficient way to lay out, align
+                    and distribute space among items in a container.
+                    </p>
+                </div>
+                <div class="box">
+                    <h2><i class="fas fa-arrows-alt"></i>
+                    Tricky Positioning</h2>
+                    <p>
+                    Flexbox usually solves tricky problems including how to position or
+                    dynamically resize elements on a page.
+                    </p>
+                </div>
+                <div class="box">
+                    <h2><i class="fas fa-mobile"></i>
+                    Responsive Design</h2>
+                    <p>
+                    Flexbox makes building a website layout (and making it responsive!)
+                    much, much easier.
+                    </p>
+                </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
